@@ -20,7 +20,6 @@ public class Person {
     private String email;
 
     public Person() {
-
     }
 
     public Person(String name, int age) {

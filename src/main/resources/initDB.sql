@@ -5,3 +5,7 @@ CREATE TABLE Person (
                         email varchar (100) NOT NULL
 );
 
+INSERT INTO Person(name, age, email) VALUES ('Max', 25, 'max@mail.com');
+INSERT INTO Person(name, age, email) VALUES ('Jack', 25, 'jack@mail.com');
+INSERT INTO Person(name, age, email) VALUES ('Rob', 25, 'rob@mail.com');
+
