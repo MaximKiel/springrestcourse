@@ -5,7 +5,4 @@ CREATE TABLE Person (
                         email varchar (100) NOT NULL UNIQUE
 );
 
-INSERT INTO Person(name, age, email) VALUES ('Max', 25, 'max@mail.com');
-INSERT INTO Person(name, age, email) VALUES ('Jack', 25, 'jack@mail.com');
-INSERT INTO Person(name, age, email) VALUES ('Rob', 25, 'rob@mail.com');
-
+ALTER TABLE person ADD COLUMN created_at timestamp, ADD COLUMN updated_at timestamp, ADD COLUMN created_who varchar;
